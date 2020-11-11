@@ -7,7 +7,7 @@ import org.junit.jupiter.api.Test;
 class CalculatorTest {
 
 	@Test
-	void testAddSingeValue() {
+	void testAddSingleValue() {
 		Calculator calculator = new Calculator();
 		assertEquals(10, calculator.add("10"));
 	}
